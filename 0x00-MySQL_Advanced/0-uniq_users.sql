@@ -1,8 +1,10 @@
 --Creates a table users
---id of integer not null, email is string and name is string
+--id of integer not null 
+--email is string and name is string
 
 CREATE TABLE IF NOT EXISTS users (
-id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-email VARCHAR(255) NOT NULL UNIQUE,
-name VARCHAR(255)
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  name VARCHAR(255)
 );
+
