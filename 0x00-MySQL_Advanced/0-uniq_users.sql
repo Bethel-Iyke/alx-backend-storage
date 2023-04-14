@@ -1,10 +1,10 @@
---Creates a table users
---id of integer not null 
---email is string and name is string
-
+-- Create a table users with the following attributes:
+-- id: INT, not null, auto increment, primary key
+-- email: VARCHAR(255), not null
+-- name: VARCHAR(255)
 CREATE TABLE IF NOT EXISTS users (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  email VARCHAR(255) NOT NULL UNIQUE,
-  name VARCHAR(255)
+    id INT NOT NULL AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    name VARCHAR(255),
+    PRIMARY KEY (id)
 );
-
