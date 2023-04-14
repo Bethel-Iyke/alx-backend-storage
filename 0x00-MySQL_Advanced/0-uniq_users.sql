@@ -1,5 +1,5 @@
--- Create a table users with the following attributes:
--- id: INT, not null, auto increment, primary key
+-- Create a table users that has the following
+-- id INT, not null, auto increment, primary key
 -- email: VARCHAR(255), not null
 -- name: VARCHAR(255)
 CREATE TABLE IF NOT EXISTS users (
